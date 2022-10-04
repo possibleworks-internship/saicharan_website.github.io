@@ -1,0 +1,163 @@
+html {
+  min-width: 770px;
+  background-color: #e7d8af;
+  background-image: url("topgrnd.jpg");
+  background-repeat: repeat-x;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font: 10pt/18pt "Trebuchet MS", Arial, Verdana, sans-serif;
+  margin: 0px;
+  height: 2200px;
+  width: 770px;
+  background: url("footer.jpg") no-repeat bottom left;
+}
+header {
+  background-image: url("header.jpg");
+  height: 380px;
+  width: 768px;
+  margin: auto;
+  padding: auto;
+}
+header h1,h2 {
+  display: none;
+}
+.summary p:first-child {
+  display: none;
+}
+.summary p:last-child {
+  text-align: right;
+  margin: 0px;
+  padding-right: 30px;
+}
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: red;
+}
+a:hover{
+  text-decoration: underline;
+  color: #3b6132;
+}
+p {
+  font: 10pt/18pt "Trebuchet MS", Arial, Verdana, sans-serif;
+  margin-top: 0px;
+  text-align: left;
+}
+.page-wrapper {
+  position: absolute;
+  width: 760px;
+  right: calc(50% - 380px);
+}
+h3 {
+  font: italic normal 12pt georgia;
+  margin-bottom: 0px;
+  color: #7d775c;
+}
+.preamble {
+  position: absolute;
+  top: 390px;
+  left: 250px;
+}
+.preamble h3 {
+  background-image: url("1.gif");
+  background-repeat: no-repeat;
+  height: 45px;
+  width: 400px;
+  overflow: hidden;
+}
+.supporting {
+  position: absolute;
+  top: 650px;
+  left: 250px;
+}
+.explanation h3 {
+  background-image: url("2.gif");
+}
+
+.participation h3 {
+  background-image: url("3.gif");
+}
+
+.benefits h3 {
+  background-image: url("4.gif");
+}
+.requirements h3 {
+  background-image: url("5.gif");
+}
+footer {
+  position: absolute;
+  display: block;
+  text-align: right;
+  top: 1500px;
+  left: 270px;
+}
+footer a:link {
+  margin-right: 20px;
+}
+.sidebar {
+  position: absolute;
+  top: 385px;
+}
+.sidebar li {
+  text-align: left;
+  padding-left: 45px;
+}
+.sidebar .wrapper {
+  font: 10pt "Trebuchet MS", Arial, Verdana, sans-serif;
+  line-height: 12px;
+  background-image: url("sidebar.gif");
+  background-repeat: repeat-y;
+  background-position: left;
+  width: 222px;
+}
+
+h3{
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 45px;
+  overflow: hidden;
+}
+
+.sidebar h3.select {
+  background: url("11.jpg");
+  background-repeat: no-repeat;
+  background-position: top left;
+  height: 170px;
+  width: 220px;
+}
+.sidebar ul {
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 5px;
+}
+.sidebar li {
+    font-size: 12px;
+  background: url("hrzline.gif");
+  background-repeat: no-repeat;
+  background-position: top right;
+  padding-top: 10px;
+  text-align: left;
+  display: block;
+}
+.sidebar h3.archives {
+    background: url("22.jpg");
+    background-repeat: no-repeat;
+    background-position: top left;
+    height: 200px;
+    width: 220px;
+}
+.sidebar h3.resources {
+    background: url("33.jpg");
+    background-repeat: no-repeat;
+    background-position: top left;
+    height: 210px;
+    width: 220px;
+}
+.design-archives a:hover{
+    color: red;
+}
+.design-name{
+    color: #3b6132;
+}
